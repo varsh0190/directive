@@ -1,18 +1,20 @@
 {
   "name": "test-library",
   "version": "0.0.3",
-  "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
-  },
+  "private": true,
   "engines": {
-    "node": ">=0.0.1 <9.0.0"
+    "node": ">=0.0.1 <9.0.0",
+    "yarn": ">=1.3.2 <2.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/varsh0190/directive.git"
   },
   "homepage": "https://github.com/varsh0190/directive.git",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
   "main": "bundles/test-library.umd.js",
   "module": "fesm5/test-library.js",
   "es2015": "fesm2015/test-library.js",
